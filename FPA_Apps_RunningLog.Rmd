@@ -1,0 +1,61 @@
+---
+title: "Family Photo Archive (FPA) Apps"
+author: "Rob Donald"
+subtitle: "Research Running Log"
+date: "`r format(Sys.time(), '%A %d %B %Y')`"
+header-includes:
+- \usepackage{graphicx}
+output:
+  pdf_document:
+    fig_caption: yes
+    toc: yes
+    toc_depth: '2'
+urlcolor: blue
+---
+\def\shrug{\texttt{\raisebox{0.75em}{\char`\_}\char`\\\char`\_\kern-0.5ex(\kern-0.25ex\raisebox{0.25ex}
+{\rotatebox{45}{\raisebox{-.75ex}"\kern-1.5ex\rotatebox{-90})}}\kern-0.5ex)\kern-0.5ex\char`\_/\raisebox{0.75em}
+{\char`\_}}}
+
+```{r setup, include=FALSE}
+# The above LaTex
+# From https://tex.stackexchange.com/questions/279100/typeset-the-shrug-%C2%AF-%E3%83%84-%C2%AF-emoji (post by Mark Wibrow)
+# The fig.pos = 'h' tells LaTeX to put the figure where you ask for it
+knitr::opts_chunk$set(echo = TRUE,fig.height=8,fig.width=12,fig.pos = 'h')
+options(width=80)
+```
+
+```{r library_setup, include=FALSE}
+suppressMessages({suppressWarnings({
+    library(dplyr)
+    library(readr)
+    library(lubridate)
+    library(here)
+    
+    library(ggplot2)
+    library(RobsRUtils)
+    library(pander)
+    library(kableExtra)
+
+})})
+```
+
+# Abstract
+
+A set of notes documenting the application(s) coded up to support the "Family Photo Archive" (FPA) project.
+
+# 2021-11-21
+
+## Initial Test Code
+
+reminding myself of and checking Python techniques for writing a support application to provide a base
+archive backup of the meta data from the macOS Photos App database.
+
+This is a python 3.x project using VS code with the documentation coded up with RStudio and Rmarkdown to .pdf.
+
+
+
+
+
+
+
+
