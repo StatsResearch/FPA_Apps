@@ -47,10 +47,30 @@ A set of notes documenting the application(s) coded up to support the "Family Ph
 
 ## Initial Test Code
 
-reminding myself of and checking Python techniques for writing a support application to provide a base
+Reminding myself of and checking Python techniques for writing a support application to provide a base
 archive backup of the meta data from the macOS Photos App database.
 
 This is a python 3.x project using VS code with the documentation coded up with RStudio and Rmarkdown to .pdf.
+
+##  Python Module osxphotos
+
+Came across this module which appears to provide *exactly* what I need.
+
+* (https://github.com/RhetTbull/osxphotos)
+
+
+
+## Building Strings For .csv
+
+Looking at the ways of extracting info from the xxx object and building a string 
+for output to a .csv
+
+From memory the method is build a CSV string for the header, extract the bits row by row then
+"joining" it with a delimiter (e.g. string_for_csv = sb.join(',') or something like this \small\shrug\normalsize).
+
+I then came across this article which looks promising.
+
+See (https://levelup.gitconnected.com/building-csv-strings-in-python-32934aed5a9e)
 
 
 
