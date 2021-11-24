@@ -62,7 +62,7 @@ Came across this module which appears to provide *exactly* what I need.
 
 ## Building Strings For .csv
 
-Looking at the ways of extracting info from the xxx object and building a string 
+Looking at ways of extracting info from the osxphotos object and building a string 
 for output to a .csv
 
 From memory the method is build a CSV string for the header, extract the bits row by row then
@@ -71,6 +71,27 @@ From memory the method is build a CSV string for the header, extract the bits ro
 I then came across this article which looks promising.
 
 See (https://levelup.gitconnected.com/building-csv-strings-in-python-32934aed5a9e)
+
+# 2021-11-24
+
+Still fighting with VS Code setup, see the project ```NotesForPythonOnMac```.
+
+For the FPA_Apps project the research tonight is about extracting the useful bits from an osxphotos object
+and getting it into a string for output to a .csv file.
+
+By 20:55 some progress on extraction techniques. I accept that I need to make allowances
+for re-learning the Python basics *and* a new IDE.
+
+## ExpDBLock As Example Code
+
+I've done all this tedious stuff before (many times) but it occurred to me that the ExpDBLock
+code must be a good starting point. So I tracked that down off the backup disks and have added
+it to my project ... which it turns we need to call a "workspace" \small\shrug\normalsize.
+
+
+
+
+
 
 
 
